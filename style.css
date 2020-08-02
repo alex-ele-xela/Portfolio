@@ -4,9 +4,55 @@ html {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
 
-  background: url("assets/Space.jpg") no-repeat center center fixed; 
+  background: url("assets/Sand\ bg.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.no-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.constant-size {
+    width: 1rem;
+    height: 3.5rem;
+}
+
+
+.buffer {
+    height: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #fbfef9;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fbfef9;
+    align-items: center;
+}
+
+hr {
+    border-color: #fbfef9;
+    border-width: 0.2rem;
+    max-width: 5rem;
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 2rem;
+}
+
+.btn-xl {
+    padding: 0.5rem 1rem;
 }
