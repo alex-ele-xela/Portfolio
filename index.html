@@ -39,17 +39,17 @@
       <nav class="nav center">
         <ul class="nav__list center">
           <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
+            <a class="link link--nav" href="#experience">Experience</a>
           </li>
           <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
+            <a class="link link--nav" href="#projects">Projects</a>
           </li>
           <li class="nav__list-item">
             <a class="link link--nav" href="#Internship">Internship</a>
           </li>
-          <!--   <li class="nav__list-item">
-            <a class="link link--nav" href="#Exp">Experience</a>
-          </li>-->
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
         </ul>
 
         <button type="button" aria-label="toggle theme" class="btn btn--icon">
@@ -102,6 +102,30 @@
         </div>
       </div>
 
+      <!-- Experience -->
+      <section id="experience" class="section Internship">
+        <h2 class="section__title">Experience</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>D.E. Shaw & Co. : Tech Associate (System Administrator)</h3> <!--Peoject Title -->
+            <p class="project__description">
+              <ul>
+                <li>Maintained and troubleshot multiple types of Windows and Linux based software and applications.</li>
+                <li>Provided support for all end-user applications used within the firm.</li>
+                <li>Communicated with colleagues from different Business Units within the firm, understanding requirements and expectations for the Systems team.</li>
+                <li><b>Termination POC:</b> Led the team in handling and regulating the digital cleanup tasks for all of the firm’s terminating employees. Assisted in maintaining and updating the code base for all Employee Termination related operations.</li>
+              </ul>
+            </p> <!--Project description-->
+            <ul class="project__stack">
+              <li class="project__stack-item">October 2020</li>
+              <li class="project__stack-item">to</li>
+              <li class="project__stack-item">April 2022</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <!-- Projects -->
       <section id="projects" class="section projects">
         <h2 class="section__title">Projects</h2>
@@ -144,34 +168,10 @@
         </div>
       </section>
 
-      <!-- Experience -->
-      <section id="experience" class="section Internship">
-        <h2 class="section__title">Experience</h2>
-
-        <div class="projects__grid">
-          <div class="project">
-            <h3>D.E. Shaw & Co. : Tech Associate (System Administrator)</h3> <!--Peoject Title -->
-            <p class="project__description">
-              <ul>
-                <li>Maintained and troubleshot multiple types of Windows and Linux based software and applications.</li>
-                <li>Provided support for all end-user applications used within the firm.</li>
-                <li>Communicated with colleagues from different Business Units within the firm, understanding requirements and expectations for the Systems team.</li>
-                <li><b>Termination POC:</b> Led the team in handling and regulating the digital cleanup tasks for all of the firm’s terminating employees. Assisted in maintaining and updating the code base for all Employee Termination related operations.</li>
-              </ul>
-            </p> <!--Project description-->
-            <ul class="project__stack">
-              <li class="project__stack-item">October 2020</li>
-              <li class="project__stack-item">to</li>
-              <li class="project__stack-item">April 2022</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
       <section id="Internship" class="section Internship" id="Internship">
         <h2 class="section__title">Internships & Certifications</h2>
 
-        <div class="projects__grid">
+        <!-- <div class="projects__grid"> -->
           <div class="project">
             <h3>Open Weaver</h3>
             <p class="project__description">
@@ -179,8 +179,9 @@
             </p>
             <ul class="project__stack">
               <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">Gen -Ai</li>
+              <li class="project__stack-item">Gen -AI</li>
               <li class="project__stack-item">Machine Learning</li>
+              <li class="project__stack-item">Deep Learning</li>
             </ul>
 
             <a
@@ -200,18 +201,37 @@
       <!-- Skills -->
       <section class="section skills" id="skills">
         <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Python</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">React</li>
-          <li class="skills__list-item btn btn--plain">Python</li>
-          <li class="skills__list-item btn btn--plain">Machine Learning</li>
-          <li class="skills__list-item btn btn--plain">Computer Vision</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">A/B Testing</li>
-          <li class="skills__list-item btn btn--plain">Adobe Creative Suit</li>
-        </ul>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Data Science</h3> <!--Peoject Title -->
+            
+            <ul class="skills__list">
+              <li class="skills__list-item btn btn--plain">Python</li>
+              <li class="skills__list-item btn btn--plain">Pandas</li>
+              <li class="skills__list-item btn btn--plain">Seaborn</li>
+              <li class="skills__list-item btn btn--plain">Sci-kit Learn</li>
+              <li class="skills__list-item btn btn--plain">Pytorch</li>
+              <li class="skills__list-item btn btn--plain">Jupyter Notebook</li>
+              <li class="skills__list-item btn btn--plain">Git</li>
+              <li class="skills__list-item btn btn--plain">Power BI</li>
+              <li class="skills__list-item btn btn--plain">SQL</li>
+            </ul>
+
+          </div>
+
+          <div class="project">
+            <h3>Graphic Design</h3> <!--Peoject Title -->
+            
+            <ul class="skills__list">
+              <li class="skills__list-item btn btn--plain">Adobe Photoshop</li>
+              <li class="skills__list-item btn btn--plain">Canva</li>
+            </ul>
+
+          </div>
+        </div>
+
+        
       </section>
 
     <footer class="footer">
